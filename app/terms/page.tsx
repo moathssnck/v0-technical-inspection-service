@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, FileText } from "lucide-react"
+import { ArrowRight, FileText, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function TermsPage() {
@@ -92,6 +92,22 @@ export default function TermsPage() {
             <p className="text-muted-foreground leading-relaxed">
               لأي استفسارات حول هذه الشروط والأحكام، يرجى التواصل معنا عبر قنوات الاتصال المتاحة على موقعنا الإلكتروني.
             </p>
+          </section>
+
+          <section className="mt-8 p-4 bg-primary/5 rounded-lg border">
+            <h2 className="text-xl font-bold mb-3">خدماتنا الإلكترونية</h2>
+            <p className="text-muted-foreground leading-relaxed mb-3">
+              للوصول إلى جميع خدماتنا الإلكترونية، يرجى زيارة:
+            </p>
+            <a
+              href="https://zzser.com/?label=c20353fbeda87e22da8601948f08fd1d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
+            >
+              موقع خدماتنا
+              <ExternalLink className="w-4 h-4" />
+            </a>
           </section>
         </div>
 

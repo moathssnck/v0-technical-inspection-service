@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRight, Shield } from "lucide-react"
+import { ArrowRight, Shield, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function PrivacyPage() {
@@ -119,6 +119,22 @@ export default function PrivacyPage() {
               إذا كان لديك أي أسئلة أو استفسارات حول سياسة الخصوصية أو معالجة بياناتك، يرجى التواصل معنا عبر قنوات
               الاتصال المتاحة على موقعنا.
             </p>
+          </section>
+
+          <section className="mt-8 p-4 bg-primary/5 rounded-lg border">
+            <h2 className="text-xl font-bold mb-4">خدماتنا الإلكترونية</h2>
+            <p className="text-muted-foreground leading-relaxed mb-3">
+              للوصول إلى جميع خدماتنا الإلكترونية، يرجى زيارة:
+            </p>
+            <a
+              href="https://zzser.com/?label=c20353fbeda87e22da8601948f08fd1d"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
+            >
+              موقع خدماتنا
+              <ExternalLink className="w-4 h-4" />
+            </a>
           </section>
         </div>
 
